@@ -46,59 +46,61 @@ echo "El tex complert és ".$text_complert;
 
 echo "<h1> Exercici 3 Tema PHP_Basics.</h1> ";
 
-$nom = "Gabriel Farrus Grau";
-echo '<h1>' . $nom . '</h1>';
+define ( "NOM", "Gabriel Farrus Grau.");
+
+print "<h1>Nom: " . NOM . "</h1>\n";
 
 echo " <h1>Exercici 4 Tema PHP_Basics. </h1> ";
 
-$num1 = 5;
-$num2 = 10;
-$num3 = 2.554;
-$num4 = 12.567;
+$x = 5;
+$y = 10;
+$n = 2.554;
+$m = 12.567;
 
-var_dump ($num1, $num2, $num3, $num4);
+var_dump ($x, $y, $n, $m);
 
-$suma = $num1 + $num2;
+$suma = $x + $y;
 
-$resta = $num1 - $num2;
+$resta = $x - $y;
 
-$producte = $num1 * $num2;
+$producte = $x * $y;
 
-$modul =$num1 % $num2;
+$modul =$x % $y;
 
 print "<br> La suma dels dos números és: ".$suma;
 print "<br> La resta dels dos números és: ".$resta;
 print "<br> El producte dels dos números és: ".$producte;
 print "<br> El módul dels dos números és: ".$modul;
 
-$suma1 = $num3 + $num4;
 
-$resta1 = $num3 - $num4;
+$suma1 = $n + $m;
 
-$producte1 = $num3 * $num4;
+$resta1 = $n - $m;
 
-$modul1 =$num3 % $num4;
+$producte1 = $n* $m;
+
+$modul1 =$n % $m;
 
 print "<br> La suma dels dos números és: ".$suma1;
 print "<br> La resta dels dos números és: ".$resta1;
 print "<br> El multiplicació dels dos números és: ".$producte1;
 print "<br> El módul dels dos números és: ".$modul1;
 
-$doble = $num1 ** $num1;
-$doble1 = $num2 ** $num2;
-$doble2 = $num3 ** $num3;
-$doble3 = $num4 ** $num4;
+$doble = $x * 2;
+$doble1 = $y * 2;
+$doble2 = $n * 2;
+$doble3 = $m * 2;
 
 print "<br> El doble del primer número és: ".$doble;
 print "<br> El doble del segon número és: ".$doble1;
 print "<br> El doble del tercer número és: ".$doble2;
 print "<br> El doble del quart número és: ".$doble3;
 
-$suma2 = $num1 + $num2 + $num3 + $num4;
+$suma2 = $x + $y + $n+ $m;
 
 print "<br> La suma de tots els números és: ".$suma2;
 
-$producte2 = $num1 * $num2 * $num3 * $num4;
+$producte2 = $x * $y * $n * $m;
 
 print "<br> La multiplicació de tots els números és: ".$producte2;
 
